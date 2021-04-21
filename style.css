@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'ralewaygras';
+    src: url(police/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url(police/Raleway-Medium.ttf);
+}
+.nounder {
+    text-decoration: none;
+    color: black;
+    font-family: ralewaymedium;
+    font-size: 100%;
+    padding-right: 10px;
+}
+ul {
+    list-style-type: none;
+}
+.titredubas {
+    font-family: ralewaygras;
+    font-size: 100%;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    background-color: #F2F2F2;
+    height: 200px;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1%;
+    padding-top: 0.38%;
+}
+.haut {
+    width: 30%;
+}
+.haut {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    margin-left: 2.5%;
+}
+.bas {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.margebas {
+    padding-bottom: 2.3%;
+}
+a:hover {
+    color: darkred;
+}
+p.menua {
+    font-family: ralewaygras;
+    font-size: 140%;
+    padding-left: 2.6%;
+    height: 12px;
+}
+p.menub {
+    font-family: ralewaymedium;
+    font-size: 90%;
+    padding-left: 2.6%;
+}
+.locationico {
+    width: 40px;
+    height: 40px;
+    background-color: #F2F2F2;
+    margin-left: 2.7%;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zonesearch {
+    width: 180px;
+    height: 40px;
+    font-family: ralewaygras;
+    border-width: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #fdfdfd;
+}
+#recherche {
+    display: flex;
+    margin-bottom: 20px;
+}
+.boutonsearch {
+    width: 100px;
+    height: 40px;
+    padding-bottom: 1px;
+    background-color: #0065FC;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    font-family: ralewaymedium;
+    color: white;
+}
+#sousmenu {
+    display: flex;
+    margin-bottom: 20px;
+}
+#economique {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.filtres {
+    padding-left: 2.7%;
+    padding-right: 3%;
+    font-family: ralewaygras;
+}
+#familial {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#romantique {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#animaux {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#icoeco {
+    height: 40px;
+    width: 40px;
+    background-color: #DEEBFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+#icofam {
+    height: 40px;
+    width: 40px;
+    background-color: #DEEBFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+#icorom {
+    height: 40px;
+    width: 40px;
+    background-color: #DEEBFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+#icoani {
+    height: 40px;
+    width: 40px;
+    background-color: #DEEBFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+#economique {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-width: 2px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-radius: 20px;
+    border-left: none;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+#familial {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-width: 2px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-radius: 20px;
+    border-left: none;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+#romantique {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-width: 2px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-radius: 20px;
+    border-left: none;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+#animaux {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-width: 2px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-radius: 20px;
+    border-left: none;
+    padding-right: 10px;
+    margin-left: 10px;
+}
