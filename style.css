@@ -107,9 +107,13 @@ p.menub {
     font-family: ralewaymedium;
     color: white;
 }
+button.boutonsearch:hover {
+    height: 38px;
+    width: 96px;
+}
 #sousmenu {
     display: flex;
-    margin-bottom: 20px;
+    height: 55px;
 }
 #economique {
     display: flex;
@@ -174,7 +178,7 @@ p.menub {
 }
 #economique {
     width: 130px;
-    height: 40px;
+    height: 36px;
     display: flex;
     justify-content: space-between;
     border-width: 2px;
@@ -183,11 +187,11 @@ p.menub {
     border-radius: 20px;
     border-left: none;
     padding-right: 10px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 #familial {
     width: 130px;
-    height: 40px;
+    height: 36px;
     display: flex;
     justify-content: space-between;
     border-width: 2px;
@@ -196,11 +200,11 @@ p.menub {
     border-radius: 20px;
     border-left: none;
     padding-right: 10px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 #romantique {
     width: 130px;
-    height: 40px;
+    height: 36px;
     display: flex;
     justify-content: space-between;
     border-width: 2px;
@@ -209,11 +213,11 @@ p.menub {
     border-radius: 20px;
     border-left: none;
     padding-right: 10px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 #animaux {
     width: 130px;
-    height: 40px;
+    height: 36px;
     display: flex;
     justify-content: space-between;
     border-width: 2px;
@@ -222,5 +226,77 @@ p.menub {
     border-radius: 20px;
     border-left: none;
     padding-right: 10px;
-    margin-left: 10px;
+    margin-left: 15px;
+}
+#blocfam{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bloceco{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#blocrom{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#blocani{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#romantique:hover {
+    background-color: #DEEBFF;
+}
+#animaux:hover {
+    background-color: #DEEBFF;
+}
+#economique:hover {
+    background-color: #DEEBFF;
+}
+#familial:hover {
+    background-color: #DEEBFF;
+}
+#sousmenu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+form {
+    height: 40px;
+}
+.lien {
+    text-decoration: none;
+    color: black;
+}
+.lien:hover {
+    color: black;
+}
+#logementdispo {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 2.6%;
+}
+.logement {
+    font-family: ralexwaimedium;
+}
+#icoinfo {
+    padding-right: 10px;
 }
