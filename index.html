@@ -12,9 +12,9 @@
         <header>
             <img src="logo.png" width="100" class="logo"/>
             <nav class="haut">
-                 <a href="erreur.html" class="nounder">Hébergements</a>
-                 <a href="erreur.html" class="nounder">Activités</a>
-                 <a href="erreur.html" class="nounder">S'inscrire</a>
+                 <a href="erreur.html" class="lienhaut">Hébergements</a>
+                 <a href="erreur.html" class="lienhaut">Activités</a>
+                 <a href="erreur.html" class="lienhaut">S'inscrire</a>
             </nav>
         </header>
         <div id="menu">
@@ -22,38 +22,136 @@
             <p class="menub">En plein centre-ville ou en pleine nature</p>
             <div id="recherche">
                 <div class="locationico"><i class="fas fa-map-marker-alt"></i></div>
-                <form method="POST" action="erreur.html"><input type="text" class="zonesearch" placeholder="Marseille, France">
+                <form method="POST" action="erreur.html"><input type="text" class="placetext" placeholder=" Marseille, France">
                     <button type=submit class="boutonsearch">Rechercher</button></form>
             </div>
             <div id="sousmenu">
                 <p class="filtres">Filtres</p>
-                <a href="erreur.html" class="lien"><div id="economique">
-                    <div id="icoeco"><i class="fas fa-money-bill-wave" id="icoecob"></i></div>
-                    <div id="bloceco"><p class="paraeco">Économique</p></div>
-                </div></a>
-                <a href="erreur.html" class="lien"><div id="familial">
-                    <div id="icofam"><i class="fas fa-child" id="icofamb"></i></div>
-                    <div id="blocfam"><p class="parafam">Familial</p></div>
-                </div></a>
-                <a href="erreur.html" class="lien"><div id="romantique">
-                    <div id="icorom"><i class="fas fa-heart" id="icoromb"></i></div>
-                    <div id="blocrom"><p class="pararom">Romantique</p></div>
-                </div></a>
-                <a href="erreur.html" class="lien"><div id="animaux">
-                    <div id="icoani"><i class="fas fa-dog" id="icoanib"></i></div>
-                    <div id="blocani"><p class="paraani">Animaux</p></div>
-                </div></a>
+                <a href="erreur.html" class="lien">
+                    <div class="rondico"><i class="fas fa-money-bill-wave"></i></div>
+                    <p class="type">Économique</p>
+                </a>
+                <a href="erreur.html" class="lien">
+                    <div class="rondico"><i class="fas fa-child"></i></div>
+                    <p class="type">Familial</p>
+                </a>
+                <a href="erreur.html" class="lien">
+                    <div class="rondico"><i class="fas fa-heart"></i></div>
+                    <p class="type">Romantique</p>
+                </a>
+                <a href="erreur.html" class="lien">
+                    <div class="rondico"><i class="fas fa-dog"></i></div>
+                    <p class="type">Animaux autorisés</p>
+                </a>
             </div>
             <div id="logementdispo">
                 <i class="fas fa-info-circle" id="icoinfo"></i>
                 <p class="logement">Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </div>
-
-        <div id="bodier">
-
+        <div id="hebergements">
+            <div id="marseille">
+                <h3>Hébergements à Marseille</h3>
+                <div id="hotels">
+                    <a href="erreur.html" class="hotel">
+                        <img src="hotel1.jpg" alt="hotel" class="image">
+                        <p class="nomhotel">Auberge la Cannebière</p>
+                        <p class="couthotel">Nuit à partir de 25€</p>
+                        <div class="etoiles">
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icogris"><i class="fas fa-star"></i></div>
+                        </div>
+                    </a>
+                    <a href="erreur.html" class="hotel">
+                        <img src="hotel2.jpg" alt="hotel" class="image">
+                        <p class="nomhotel">Hôtel du port</p>
+                        <p class="couthotel">Nuit à partir de 57€</p>
+                        <div class="etoiles">
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                        </div>
+                    </a>
+                    <a href="erreur.html" class="hotel">
+                        <img src="hotel3.jpg" alt="hotel" class="image">
+                        <p class="nomhotel">Hôtel Les mouettes</p>
+                        <p class="couthotel">Nuit à partir de 76€</p>
+                        <div class="etoiles">
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icogris"><i class="fas fa-star"></i></div>
+                        </div>
+                    </a>
+                    <a href="erreur.html" class="hotel">
+                        <img src="hotel4.jpg" alt="hotel" class="image">
+                        <p class="nomhotel">Hôtel de la mer</p>
+                        <p class="couthotel">Nuit à partir de 48€</p>
+                        <div class="etoiles">
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icogris"><i class="fas fa-star"></i></div>
+                            <div class="icogris"><i class="fas fa-star"></i></div>
+                        </div>
+                    </a>
+                    <a href="erreur.html" class="hotel">
+                        <img src="hotel5.jpg" alt="hotel" class="image">
+                        <p class="nomhotel">Hôtel Le Panier</p>
+                        <p class="couthotel">Nuit à partir de 23€</p>
+                        <div class="etoiles">
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icogris"><i class="fas fa-star"></i></div>
+                        </div>
+                    </a>
+                    <a href="erreur.html" class="hotel">
+                        <img src="hotel6.jpg" alt="hotel" class="image">
+                        <p class="nomhotel">Auberge chez Amina</p>
+                        <p class="couthotel">Nuit à partir de 88€</p>
+                        <div class="etoiles">
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                            <div class="icobleu"><i class="fas fa-star"></i></div>
+                        </div>
+                    </a>
+                </div>
+                <a href="erreur.html" class="plus">Afficher plus</a>
+            </div>
+            <div id="populaire">
+                <div id="populairehaut">
+                    <h3>Les plus populaires</h3>
+                    <i class="fas fa-chart-line" id="iconegraph"></i>
+                </div>
+                <div id="hotelpopulaire">
+                    <a href="erreur.html" class="lienpop">
+                        <img src="hotelpop1.jpg" alt="hotel" class="imghotelpop">
+                        <div class="textepop">
+                            <p class="nomhotelpop">Hôtel le soleil du matin</p>
+                            <p class="couthotelpop">Nuit à partir de 125€</p>
+                            <div class="etoilespop">
+                                <div class="icobleu"><i class="fas fa-star"></i></div>
+                                <div class="icobleu"><i class="fas fa-star"></i></div>
+                                <div class="icobleu"><i class="fas fa-star"></i></div>
+                                <div class="icobleu"><i class="fas fa-star"></i></div>
+                                <div class="icobleu"><i class="fas fa-star"></i></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>    
+            </div>
         </div>
-
+        <div id="activites"></div>
         <footer>
                 <ul class="bas">
                     <li class="titredubas">À propos</li>

@@ -40,17 +40,19 @@ header {
     justify-content: space-between;
     padding-bottom: 1%;
     padding-top: 0.38%;
+    padding-left: 2.6%;
 }
-.haut {
-    width: 30%;
+.lienhaut {
+    margin-right: 70px;
+    text-decoration: none;
+    color: black;
+    font-family: ralewaymedium;
+    font-size: 100%;
 }
 .haut {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-.logo {
-    margin-left: 2.5%;
 }
 .bas {
     width: 33%;
@@ -60,42 +62,57 @@ header {
 .margebas {
     padding-bottom: 2.3%;
 }
-a:hover {
-    color: darkred;
+.lienhaut:hover {
+    color: #DEEBFF;
+}
+.nounder:hover {
+    color: #0065FC;
 }
 p.menua {
     font-family: ralewaygras;
     font-size: 140%;
-    padding-left: 2.6%;
     height: 12px;
 }
 p.menub {
     font-family: ralewaymedium;
     font-size: 90%;
-    padding-left: 2.6%;
 }
+#menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 2.6%;
+    margin-bottom: 3%;
+} 
 .locationico {
     width: 40px;
     height: 40px;
     background-color: #F2F2F2;
-    margin-left: 2.7%;
     border-radius: 10px 0px 0px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.zonesearch {
+.placetext {
     width: 180px;
-    height: 40px;
+    height: 36px;
     font-family: ralewaygras;
-    border-width: 0px;
+    border-width: 1px;
     border-left: 0px;
     border-right: 0px;
-    border-color: #fdfdfd;
+    border-color: #F2F2F2;
+    border-style: solid;
+    
 }
 #recherche {
     display: flex;
     margin-bottom: 20px;
+}
+form {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .boutonsearch {
     width: 100px;
@@ -113,190 +130,171 @@ button.boutonsearch:hover {
 }
 #sousmenu {
     display: flex;
-    height: 55px;
-}
-#economique {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.filtres {
-    padding-left: 2.7%;
-    padding-right: 3%;
-    font-family: ralewaygras;
-}
-#familial {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-#romantique {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-#animaux {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-#icoeco {
-    height: 40px;
-    width: 40px;
-    background-color: #DEEBFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-}
-#icofam {
-    height: 40px;
-    width: 40px;
-    background-color: #DEEBFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-}
-#icorom {
-    height: 40px;
-    width: 40px;
-    background-color: #DEEBFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-}
-#icoani {
-    height: 40px;
-    width: 40px;
-    background-color: #DEEBFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-}
-#economique {
-    width: 130px;
-    height: 36px;
-    display: flex;
-    justify-content: space-between;
-    border-width: 2px;
-    border-color: #F2F2F2;
-    border-style: solid;
-    border-radius: 20px;
-    border-left: none;
-    padding-right: 10px;
-    margin-left: 15px;
-}
-#familial {
-    width: 130px;
-    height: 36px;
-    display: flex;
-    justify-content: space-between;
-    border-width: 2px;
-    border-color: #F2F2F2;
-    border-style: solid;
-    border-radius: 20px;
-    border-left: none;
-    padding-right: 10px;
-    margin-left: 15px;
-}
-#romantique {
-    width: 130px;
-    height: 36px;
-    display: flex;
-    justify-content: space-between;
-    border-width: 2px;
-    border-color: #F2F2F2;
-    border-style: solid;
-    border-radius: 20px;
-    border-left: none;
-    padding-right: 10px;
-    margin-left: 15px;
-}
-#animaux {
-    width: 130px;
-    height: 36px;
-    display: flex;
-    justify-content: space-between;
-    border-width: 2px;
-    border-color: #F2F2F2;
-    border-style: solid;
-    border-radius: 20px;
-    border-left: none;
-    padding-right: 10px;
-    margin-left: 15px;
-}
-#blocfam{
-    width: 90px;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#bloceco{
-    width: 90px;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#blocrom{
-    width: 90px;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#blocani{
-    width: 90px;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#romantique:hover {
-    background-color: #DEEBFF;
-}
-#animaux:hover {
-    background-color: #DEEBFF;
-}
-#economique:hover {
-    background-color: #DEEBFF;
-}
-#familial:hover {
-    background-color: #DEEBFF;
-}
-#sousmenu {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-#menu {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-form {
     height: 40px;
 }
 .lien {
-    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F2F2F2;
+    border-left: 0px;
+    margin-left: 3%;
+    font-family: ralewaygras;
 }
 .lien:hover {
-    color: black;
+    background-color: #DEEBFF;
+    text-decoration: none;
 }
 #logementdispo {
     display: flex;
     align-items: center;
+}
+.rondico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
     height: 40px;
-    padding-left: 2.6%;
+    border-radius: 20px;
+    background-color: #DEEBFF;
+}
+.type {
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.filtres {
+    font-family: ralewaygras;
+}
+#hebergements {
+    margin-left: 2.6%;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+#marseille {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 5px 20px 20px 20px;
+    width: fit-content;
+}
+h3 {
+    font-family: ralewaygras;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.plus{
+    color: black;
+    font-family: ralewaygras;
+    text-decoration: none;
+    margin-left: 10px;
+}
+#hotels {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.hotel {
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 6px;
+    line-height: 10px;
+}
+.nomhotel {
+    font-family: ralewaygras;
+    margin-left: 6px;
+    color: black;
+    text-decoration: none;
+}
+.couthotel {
+    font-family: ralewaymedium;
+    margin-left: 6px;
+    color: black;
+    text-decoration: none;
+}
+.image {
+    width: 250px;
+    border-radius: 18px 18px 0px 0px;
+}
+.etoiles {
+    display: flex;
+    width: fit-content;
+    margin-bottom: 6px;
+    margin-left: 6px;
+}
+.icobleu {
+    color: #0065FC;
+}
+.icogris {
+    color: #F2F2F2;
 }
 .logement {
-    font-family: ralexwaimedium;
+    font-family: ralewaymedium;
+    margin-left: 10px;
 }
-#icoinfo {
-    padding-right: 10px;
+a {
+    text-decoration: none;
+}
+.logo {
+    margin-right: 10px;
+}
+#populaire {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: max-content;
+    padding: 15px;
+}
+#populairehaut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: ralewaygras;
+}
+#iconegraph {
+    margin-right: 20px;
+} 
+#hotelpopulaire {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+.imghotelpop {
+    width: 170px;
+    height: 170px;
+    border-radius: 20px 0px 0px 20px;
+}
+.lienpop {
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 6px;
+    display: flex;
+}
+.textepop {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.nomhotelpop {
+    font-family: ralewaygras;
+    color: black;
+}
+.couthotelpop {
+    font-family: ralewaymedium;
+    color: black;
+}
+.etoilespop {
+    display: flex;
+    width: fit-content;
+    margin-bottom: 6px;
 }
