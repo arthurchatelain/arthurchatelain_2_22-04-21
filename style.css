@@ -25,6 +25,7 @@ ul {
 body {
     display: flex;
     flex-direction: column;
+    padding: 30px;
 }
 footer {
     background-color: #F2F2F2;
@@ -38,9 +39,6 @@ footer {
 header {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 1%;
-    padding-top: 0.38%;
-    padding-left: 2.6%;
 }
 .lienhaut {
     margin-right: 70px;
@@ -81,7 +79,6 @@ p.menub {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-left: 2.6%;
     margin-bottom: 3%;
 } 
 .locationico {
@@ -172,17 +169,19 @@ button.boutonsearch:hover {
     font-family: ralewaygras;
 }
 #hebergements {
-    margin-left: 2.6%;
     width: fit-content;
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 #marseille {
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 5px 20px 20px 20px;
     width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 h3 {
     font-family: ralewaygras;
@@ -244,6 +243,9 @@ h3 {
 a {
     text-decoration: none;
 }
+a:visited {
+    text-decoration: none;
+}
 .logo {
     margin-right: 10px;
 }
@@ -299,4 +301,61 @@ a {
     display: flex;
     width: fit-content;
     margin-bottom: 6px;
+}
+#activites {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+#activite {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.deuxact {
+    display: flex;
+    flex-direction: column;
+    width: 21%;
+    justify-content: space-between;
+}
+.uneact {
+    width: 21%;
+    border-radius: 25px;
+    box-shadow: -3px 3px 5px #f2f2f2;
+}
+.imguneact {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.imgdeuxact {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.divimguneact {
+    overflow: hidden;
+    height: 340px;
+}
+.divimgdeuxact {
+    overflow: hidden;
+    height: 130px;
+}
+.acttitre {
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: initial;
+    padding: 5%;
+    font-family: ralewaygras;
+    color: black;
+}
+#titleact {
+    font-family: ralewaygras;
+    margin-bottom: 2%;
+}
+.petitact {
+    border-radius: 25px;
+    box-shadow: -3px 3px 5px #f2f2f2;
 }
