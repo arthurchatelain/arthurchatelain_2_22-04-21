@@ -6,6 +6,9 @@
     font-family: 'ralewaymedium';
     src: url(police/Raleway-Medium.ttf);
 }
+.logo {
+    max-height: 45px;
+}
 .nounder {
     text-decoration: none;
     color: black;
@@ -29,7 +32,7 @@ body {
 }
 footer {
     background-color: #F2F2F2;
-    height: 200px;
+    height: max-content;
 }
 footer {
     display: flex;
@@ -72,7 +75,7 @@ header {
 p.menua {
     font-family: ralewaygras;
     font-size: 140%;
-    height: 12px;
+    margin-block-end: 0em;
 }
 p.menub {
     font-family: ralewaymedium;
@@ -321,11 +324,17 @@ a:visited {
     flex-direction: column;
     width: 21%;
     justify-content: space-between;
+    min-width: 200px;
+    margin: 20px;
 }
 .uneact {
     width: 21%;
     border-radius: 25px;
     box-shadow: -3px 3px 5px #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    margin: 20px;
 }
 .imguneact {
     width: 100%;
@@ -354,6 +363,9 @@ a:visited {
     padding: 5%;
     font-family: ralewaygras;
     color: black;
+    flex: 1;
+    text-align: center;
+    padding-bottom: 6%;
 }
 #titleact {
     font-family: ralewaygras;
@@ -362,6 +374,11 @@ a:visited {
 .petitact {
     border-radius: 25px;
     box-shadow: -3px 3px 5px #f2f2f2;
+}
+.grandact {
+    border-radius: 25px;
+    box-shadow: -3px 3px 5px #f2f2f2;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1240px)
@@ -376,6 +393,8 @@ a:visited {
 }
 @media screen and (max-width: 1025px) 
 {
+.lienhaut {
+    margin-right: 15%;}
 .hotel {
     width: calc(100% - 20px);
 }
@@ -405,7 +424,254 @@ a:visited {
     margin-left: 10px;
 }
 .nomhotelpop {
-    margin-block-start: 10px;
     margin-block-end: auto;
+}
+#activite {
+    flex-wrap: wrap;
+}
+.deuxact {
+    width: 29%;
+}
+.uneact {
+    width: 29%;
+}
+.petitact {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.grandact {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.deuxact.dessous {
+    flex-direction: row;
+    width: 75%;
+}
+.actdessous {
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50%;
+}
+.lien
+{
+    height: -webkit-fill-available;
+}
+#sousmenu {
+    flex-wrap: wrap;
+}
+}
+@media screen and (max-width: 1000px)
+{
+.titredubas {
+    padding-bottom: 20px;
+}
+.margebas {
+    padding-bottom: 10px;
+}
+.deuxact {
+    width: 28%;
+}
+.uneact {
+    width: 28%;
+}
+.lien {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    text-decoration: none;
+    border-radius: 22.5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F2F2F2;
+    border-left: 0px;
+    margin-left: 3%;
+    font-family: ralewaygras;
+    margin-bottom: 10px;
+    height: 38px;
+}
+#sousmenu {
+    height: auto;
+}
+}
+@media screen and (max-width: 933px)
+{
+.animauxgauche {
+    margin-left: calc(48px + 3%);
+}
+}
+@media screen and (max-width: 830px)
+{
+body {
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    padding: 25px 45px 10px 20px;
+}
+#menu {
+    padding: 0px 20px 0px 20px;
+}
+#recherche {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+#hebergements {
+    margin: 0px 10px 0px 10px;
+}
+#marseille {
+    margin-right: 8px;
+    padding: 15px 5px 15px 5px;
+    width: 50%;
+}
+#populaire {
+    margin-left: 8px;
+    padding: 15px 5px 15px 5px;
+    width: 50%;
+}
+#titleact {
+    margin-top: 50px;
+    text-align: center;
+}
+.uneact {
+    min-width: 230px;
+}
+.deuxact.dessous {
+    flex-direction: column;
+    width: 40%;
+}
+.uneact {
+    width: 40%;
+}
+.deuxact {
+    width: 40%;
+}
+#activite {
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+}
+.actdessous {
+    width: 100%;
+    margin-left: 0px;
+}
+.divimgdeuxact {
+    overflow: hidden;
+    height: max-content;
+}
+}
+@media screen and (max-width: 640px)
+{
+header {
+    padding: 10px;
+}
+.sinscrire {
+    color: #0065FC;
+}
+.haut {
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+}
+.lienhaut {
+    margin-right: 25px;
+}
+.logo {
+    margin-right: 42px;
+}
+#activite {
+    padding: 0px 10px 0px 10px;
+}
+}
+@media screen and (max-width: 588px) 
+{
+.animauxgauche {
+    margin-left: 10px;
+}
+.romantiquegauche {
+    margin-left: calc(48px + 3%);
+}
+}
+@media screen and (max-width: 481px) 
+{
+.animauxgauche{
+    margin-left: calc(48px + 3%);
+}
+.lienhaut {
+    margin-bottom: 15px;
+}
+.logo {
+    margin-right: 50px;
+}
+}
+@media screen and (max-width: 400px) 
+{
+.familialgauche {
+    margin-left: calc(48px + 3%);
+}
+}
+@media screen and (max-width: 360px)
+{
+.placetext {
+    width: 120px;
+}
+} 
+@media screen and (max-width: 550px)
+{
+.uneact {
+    min-width: 0px;
+}
+p.menua {
+    text-align: center;
+}
+p.menub {
+    text-align: center;
+}
+.bas {
+    width: auto;
+}
+footer {
+    flex-direction: column;
+}
+#hebergements {
+    flex-direction: column-reverse;
+    margin: 0px;
+}
+#populaire {
+    margin-left: 0px;
+    width: 100%;
+    border-radius: 0px;
+}
+#marseille {
+    margin-right: 0px;
+    width: 100%;
+    border-radius: 0px;
+    background-color: white;
+}
+.hotel {
+    box-shadow: 1px 1px 8px #f2f2f2;
+}
+h3 {
+    text-align: center;
+}
+.uneact {
+    width: 100%;
+}
+.deuxact {
+    width: 100%;
+}
+.deuxact.dessous {
+    width: 100%;
+}
+#populairehaut {
+    justify-content: space-around;
+}
+#recherche {
+    align-self: center;
+}
+.logo {
+    margin-left: 10px;
 }
 }
