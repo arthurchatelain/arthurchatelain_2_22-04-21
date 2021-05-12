@@ -6,6 +6,9 @@
     font-family: 'ralewaymedium';
     src: url(police/Raleway-Medium.ttf);
 }
+#menuhautliens {
+    display: flex;
+}
 .logo {
     max-height: 45px;
 }
@@ -41,7 +44,7 @@ footer {
 }
 header {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 .lienhaut {
     margin-right: 70px;
@@ -52,8 +55,9 @@ header {
 }
 .haut {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    width: -webkit-fill-available;
 }
 .bas {
     width: 33%;
@@ -64,10 +68,7 @@ header {
     padding-bottom: 2.3%;
 }
 .lienhaut:hover {
-    color: #DEEBFF;
-}
-.lienhaut:active {
-    color: brown;
+    color: #0065FC;
 }
 .nounder:hover {
     color: #0065FC;
@@ -394,7 +395,8 @@ a:visited {
 @media screen and (max-width: 1025px) 
 {
 .lienhaut {
-    margin-right: 15%;}
+    margin-right: 30px;
+}
 .hotel {
     width: calc(100% - 20px);
 }
@@ -511,7 +513,7 @@ body {
     margin: 0px;
 }
 header {
-    padding: 25px 45px 10px 20px;
+    padding: 25px 0px 10px 20px;
 }
 #menu {
     padding: 0px 20px 0px 20px;
@@ -567,13 +569,18 @@ header {
 {
 header {
     padding: 10px;
+    flex-wrap: wrap;
 }
 .sinscrire {
     color: #0065FC;
 }
-.haut {
-    flex-wrap: wrap-reverse;
-    flex-direction: row-reverse;
+#menuhautliens {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.sinscrire {
+    margin-right: 45px;
 }
 .lienhaut {
     margin-right: 25px;
@@ -583,6 +590,20 @@ header {
 }
 #activite {
     padding: 0px 10px 0px 10px;
+}
+.lienspecial {
+    width: 50%;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-bottom-style: solid;
+    border-bottom-color: #f2f2f2;
+}
+.lienspecial:hover {
+    color: #0065FC;
+    border-bottom-color: #0065FC;
 }
 }
 @media screen and (max-width: 588px) 
@@ -598,9 +619,6 @@ header {
 {
 .animauxgauche{
     margin-left: calc(48px + 3%);
-}
-.lienhaut {
-    margin-bottom: 15px;
 }
 .logo {
     margin-right: 50px;
