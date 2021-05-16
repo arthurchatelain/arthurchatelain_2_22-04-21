@@ -6,8 +6,46 @@
     font-family: 'ralewaymedium';
     src: url(police/Raleway-Medium.ttf);
 }
+.boutonsearch2 {
+    width: 40px;
+    height: 40px;
+    padding-bottom: 1px;
+    background-color: #0065FC;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    font-family: ralewaymedium;
+    color: white;
+    display: none;
+}
+.blanc {
+    color: white;
+}
+.bleu {
+    color: #0065FC;
+}
+.header2 {
+    display: none;
+}
 #menuhautliens {
     display: flex;
+}
+.header1 {
+    display: flex;
+    justify-content: space-between;
+}
+.lienhaut1 {
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-family: ralewaymedium;
+    font-size: 100%;
+}
+.lienhaut1s {
+    margin-right: 50px;
+    text-decoration: none;
+    color: #0065FC;
+    font-family: ralewaygras;
+    font-size: 100%;
 }
 .logo {
     max-height: 45px;
@@ -86,7 +124,6 @@ p.menub {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-bottom: 3%;
 } 
 .locationico {
     width: 40px;
@@ -566,6 +603,20 @@ header {
 }
 @media screen and (max-width: 640px)
 {
+.boutonsearch {
+    display: none;
+}
+.boutonsearch2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header2 {
+    display: flex;
+}
+.header1 {
+    display: none;
+}
 header {
     padding: 10px;
     flex-wrap: wrap;
@@ -603,6 +654,9 @@ header {
 .lienspecial:hover {
     color: #0065FC;
     border-bottom-color: #0065FC;
+}
+a.lienhaut.sinscrire {
+    font-family: ralewaygras;
 }
 }
 @media screen and (max-width: 588px) 
