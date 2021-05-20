@@ -6,6 +6,10 @@
     font-family: 'ralewaymedium';
     src: url(police/Raleway-Medium.ttf);
 }
+.lienhaut1s {
+    font-family: ralewaygras;
+    color: #0065FC;
+}
 .boutonsearch2 {
     width: 40px;
     height: 40px;
@@ -39,7 +43,9 @@
     color: black;
     font-family: ralewaymedium;
     font-size: 100%;
+    position: relative;
 }
+.lienhaut1::before
 .lienhaut1s {
     margin-right: 50px;
     text-decoration: none;
@@ -69,7 +75,7 @@ ul {
 body {
     display: flex;
     flex-direction: column;
-    padding: 10px 30px 10px 30px;
+    margin: 0px;
 }
 footer {
     background-color: #F2F2F2;
@@ -83,6 +89,9 @@ footer {
 header {
     display: flex;
     align-items: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .lienhaut {
     margin-right: 70px;
@@ -124,6 +133,8 @@ p.menub {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding-right: 20px;
+    padding-left: 20px;
 } 
 .locationico {
     width: 40px;
@@ -217,6 +228,8 @@ button.boutonsearch:hover {
     display: flex;
     flex-direction: row;
     margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #marseille {
     background-color: #F2F2F2;
@@ -337,6 +350,7 @@ a:visited {
 .nomhotelpop {
     font-family: ralewaygras;
     color: black;
+    margin-bottom: 0px;
 }
 .couthotelpop {
     font-family: ralewaymedium;
@@ -351,6 +365,8 @@ a:visited {
     display: flex;
     flex-direction: column;
     margin-bottom: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 #activite {
     display: flex;
@@ -467,7 +483,7 @@ a:visited {
     margin-left: 10px;
 }
 .nomhotelpop {
-    margin-block-end: auto;
+    margin-block-end: 0px;
 }
 #activite {
     flex-wrap: wrap;
@@ -515,10 +531,17 @@ a:visited {
     padding-bottom: 10px;
 }
 .deuxact {
-    width: 28%;
+    width: calc(100% / 3 - 20px);
 }
 .uneact {
-    width: 28%;
+    width: calc(100% / 3 - 20px);
+}
+.margegauche {
+    margin-right: 0px;
+}
+.deuxact.dessous {
+    padding-top: 30px;
+    width: 100%;
 }
 .lien {
     display: flex;
@@ -549,6 +572,25 @@ a:visited {
 }
 @media screen and (max-width: 830px)
 {
+.margegauche {
+    margin-left: 0px;
+}
+.margedroite {
+    margin-right: 0px;
+}
+.deuxact.dessous {
+    padding-top: 0px;
+    margin-top: 30px;
+}
+.margegauche {
+    margin-top: 30px;
+}
+.uneact {
+    width: calc(50% - 15px);
+}
+.deuxact {
+    width: calc(50% - 15px)
+}
 body {
     padding: 0px;
     margin: 0px;
@@ -562,9 +604,6 @@ header {
 #recherche {
     margin-top: 10px;
     margin-bottom: 25px;
-}
-#hebergements {
-    margin: 0px 10px 0px 10px;
 }
 #marseille {
     margin-right: 8px;
@@ -585,17 +624,10 @@ header {
 }
 .deuxact.dessous {
     flex-direction: column;
-    width: 40%;
-}
-.uneact {
-    width: 40%;
-}
-.deuxact {
-    width: 40%;
+    width: calc(50% - 15px);
 }
 #activite {
     justify-content: space-between;
-    padding: 0px 30px 0px 30px;
 }
 .actdessous {
     width: 100%;
@@ -696,6 +728,36 @@ a.lienhaut.sinscrire {
 } 
 @media screen and (max-width: 550px)
 {
+.divimgdeuxact {
+    max-height: 250px;
+}
+.divimguneact {
+    max-height: 250px;
+}
+.uneact {
+    margin: 0px;
+}
+.deuxact {
+    margin: 0px;
+}
+.lienpop {
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+}
+.imghotelpop {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px 0px 0px 20px;
+}
+.textepop {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
 .uneact {
     min-width: 0px;
 }
@@ -749,5 +811,14 @@ h3 {
 }
 .logo {
     margin-left: 10px;
+}
+.uneact {
+    margin-bottom: 30px;
+}
+.petitact {
+    margin-bottom: 30px;
+}
+.margegauche {
+    margin-bottom: 0px;
 }
 }
