@@ -361,6 +361,8 @@ a:visited {
     font-family: ralewaygras;
     color: black;
     margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .couthotelpop {
     font-family: ralewaymedium;
@@ -492,6 +494,9 @@ a:visited {
 }
 .textepop {
     margin-left: 10px;
+}
+.couthotelpop {
+    padding-bottom: 10px;
 }
 .nomhotelpop {
     margin: 0px;
