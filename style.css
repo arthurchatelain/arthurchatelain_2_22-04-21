@@ -507,10 +507,13 @@ a:visited {
     flex-wrap: wrap;
 }
 .deuxact {
-    width: 29%;
+    width: calc(100% / 3 - 20px);
 }
 .uneact {
-    width: 29%;
+    width: calc(100% / 3 - 20px);
+}
+.margegauche {
+    margin-right: 0px;
 }
 .petitact {
     height: 50%;
@@ -524,7 +527,8 @@ a:visited {
 }
 .deuxact.dessous {
     flex-direction: row;
-    width: 75%;
+    width: 100%;
+    padding-top: 30px;
 }
 .actdessous {
     height: 100%;
@@ -779,8 +783,8 @@ a.lienhaut.sinscrire {
 }
 .imghotelpop {
     width: 120px;
-    height: 120px;
     border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
 }
 .textepop {
     display: flex;
@@ -887,4 +891,13 @@ h3 {
 .divimgdeuxact {
     max-height: 170px;
 }
+}
+@media screen and (max-width: 340px)
+{
+.imagehotel1{top: 0px;}
+.imagehotel2{top: 0px;}
+.imagehotel3{top: 0px;}
+.imagehotel4{top: 0px;}
+.imagehotel5{top: 0px;}
+.imagehotel6{top: 0px;}
 }
