@@ -113,7 +113,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: -webkit-fill-available;
+    width: 100%;
 }
 .bas {
     width: 33%;
@@ -273,6 +273,7 @@ h3 {
     width: calc(100% / 3 - 20px);
     line-height: 10px;
     box-sizing: border-box;
+    box-shadow: 1px 2px 13px 2px #dadada;
 }
 .nomhotel {
     font-family: ralewaygras;
@@ -350,6 +351,7 @@ a:visited {
     margin: 10px;
     padding: 6px;
     display: flex;
+    box-shadow: 1px 2px 13px 2px #dadada;
 }
 .textepop {
     display: flex;
@@ -459,7 +461,6 @@ a:visited {
 }
 #hotelpopulaire {
     justify-content: space-around;
-    height: -webkit-fill-available;
 }
 }
 @media screen and (max-width: 1025px) 
@@ -535,10 +536,6 @@ a:visited {
     margin-left: 20px;
     margin-right: 20px;
     width: 50%;
-}
-.lien
-{
-    height: -webkit-fill-available;
 }
 #sousmenu {
     flex-wrap: wrap;
