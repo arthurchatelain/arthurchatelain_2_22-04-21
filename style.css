@@ -811,6 +811,7 @@ footer {
 #hebergements {
     flex-direction: column-reverse;
     margin: 0px;
+    padding: 0px;
 }
 #populaire {
     margin-left: 0px;
