@@ -11,15 +11,17 @@
     color: #0065FC;
 }
 .active::before {
-    width: 100%;
-    height: 5px;
+    width: 140%;
+    height: 4px;
     background: #0065FC;
     content: " "; 
     display: block;
     position: absolute; 
     top: -26px;
-    left: 0;
+    left: -20%;
+    align-self: center;
 }
+
 .boutonsearch2 {
     width: 40px;
     height: 40px;
@@ -94,6 +96,8 @@ footer {
     display: flex;
     justify-content: space-around;
 
+}.active {
+    color: #0065FC;
 }
 header {
     display: flex;
