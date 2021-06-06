@@ -670,7 +670,7 @@ header {
 @media screen and (max-width: 640px)
 {
 #hebergements {
-    padding: 0px;
+    padding: 10px;
 } 
 .boutonsearch {
     display: none;
