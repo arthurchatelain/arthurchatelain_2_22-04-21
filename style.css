@@ -211,6 +211,7 @@ button.boutonsearch:hover {
     border-left: 0px;
     margin-left: 3%;
     font-family: ralewaygras;
+    height: 38px;
 }
 .lien:hover {
     background-color: #DEEBFF;
