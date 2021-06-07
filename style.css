@@ -39,8 +39,9 @@
 .bleu {
     color: #0065FC;
 }
-.header2 {
-    display: none;
+.haut1 {
+    display: flex;
+    flex-direction: row;
 }
 #menuhautliens {
     display: flex;
@@ -63,6 +64,13 @@
     color: #0065FC;
     font-family: ralewaygras;
     font-size: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding-top: 25px;
+}
+.menud {
+    padding-right: 100px;
 }
 .logo {
     max-height: 45px;
@@ -666,6 +674,13 @@ header {
 .active::before {
     top: -41px;
 }
+.lienhaut1s {
+    margin-right: 30px;
+    padding-top: 39px;
+}
+.menud {
+    padding-right: 95px;
+}
 }
 @media screen and (max-width: 640px)
 {
@@ -679,12 +694,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.header2 {
-    display: flex;
-}
-.header1 {
-    display: none;
 }
 header {
     padding: 10px;
@@ -726,6 +735,33 @@ header {
 }
 a.lienhaut.sinscrire {
     font-family: ralewaygras;
+}
+.active {
+    color: black;
+}
+.active::before {
+    display: none;
+}
+.lienhaut1s {
+    padding-top: 25px;
+}
+.menud {
+    padding-right: 0px;
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+}
+.lienhaut1 {
+    width: 50%;
+    text-align: center;
+    margin-right: 0px;
+    border-bottom-style: solid;
+    border-bottom-color: #f2f2f2;
+    padding-bottom: 15px;
+}
+.lienhaut1:hover {
+    border-bottom-color: #0065FC;
+    color: #0065FC;
 }
 }
 @media screen and (max-width: 588px) 
